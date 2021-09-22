@@ -18,7 +18,7 @@ const Chat = ({username, image}: ChatProps) => {
       );
 
     return (
-        <View style={{marginTop:200, alignSelf:'center'}}>
+        <View style={Styles.container}>
            <FlatList
         inverted
         data={chatItemList.sort((a, b) => b.timeStamp - a.timeStamp)}
