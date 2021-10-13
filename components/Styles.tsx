@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: "#ff1",
+    backgroundColor: "black",
     flex: 1,
   },
 
@@ -53,11 +53,13 @@ export default StyleSheet.create({
     borderRadius: 4,
     flexGrow: 1,
     fontSize: 18,
+    color:'white'
   },
 
   chatItemHeader: {
     flexDirection: "row",
     flexWrap: "wrap",
+    
   },
 
   flatListItem: {
@@ -68,17 +70,20 @@ export default StyleSheet.create({
     marginBottom: 7,
     marginLeft: 16,
     marginRight: 16,
-    borderColor: "green",
+    borderColor: "blue",
+    backgroundColor:'blue'
   },
 
   chatText: {
     fontSize: 18,
+    color:'white'
   },
 
   smallItalicText: {
     fontSize: 16,
     fontStyle: "italic",
     alignSelf: "center",
+    color:'white'
   },
 
   avatarSmall: {
